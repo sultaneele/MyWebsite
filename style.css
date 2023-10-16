@@ -1,0 +1,20 @@
+li::before{
+	content:"Hello  ";
+	color: white;
+	background-color: black;
+}
+li::after{
+	content:"  BYE";
+	color: white;
+	background-color: black;
+	border: 4px solid white;
+	font-size: xx-small;
+	border-radius: 20px;
+}
+body{
+	counter-reset:amni;
+}
+h1::before{
+	counter-increment: amni;
+	content: "Hi! " counter(amni) " :";
+}
