@@ -13,6 +13,7 @@ li::after{
 }
 body{
 	counter-reset:amni;
+	background-color: beige;
 }
 h1::before{
 	counter-increment: amni;
