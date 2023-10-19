@@ -19,3 +19,8 @@ h1::before{
 	counter-increment: amni;
 	content: "Hi! " counter(amni) " :";
 }
+input:focus{
+	font-weight: italic;
+	color: red;
+	font-family: sans-serif;
+}
